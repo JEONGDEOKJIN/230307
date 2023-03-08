@@ -1,0 +1,25 @@
+/* ⭐⭐ 태그 선택자 */
+div {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+/* ⭐⭐ 태그 선택자 > 태그 선택자 타고 타고 들어가는 것 ⭐⭐⭐ 
+        중요한 이유는 나 였다면, 이미지에 class 를 부여해서 키웠을거야 */
+div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* div img 로 잡건, .box img 로 잡건 동일한 결과 */
+.box img {
+    transform: translate(100px, 100px);
+}
+
+.box2 img {
+    transform: translateX(100px);
+}
+
